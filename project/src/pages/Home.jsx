@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="space-y-8">
       <section 
-        className="text-center py-20 bg-cover bg-center relative"
+        className="text-center py-20 bg-cover bg-center relative rounded-lg shadow-md overflow-hidden"
         style={{
           backgroundImage: 'url("https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1600")',
         }}
