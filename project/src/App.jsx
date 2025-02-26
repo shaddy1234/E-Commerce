@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Products from './pages/Products'
 import Cart from './pages/Cart'
 import About from './pages/About'
+import ShippingInfo from './pages/ShippingInfo'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<About />} />
+          <Route path="/shipping" element={<ShippingInfo />} />
         </Routes>
       </main>
       <Footer />
